@@ -1,0 +1,37 @@
+/*  
+    Recommeded CSS
+    ==============
+*/
+
+.panel {
+    position: fixed;
+    left: -15.625em; /*or width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+/*  
+    Demo Specific Styles
+    ====================
+*/
+
+
+
+.wrap {
+    position: relative;
+    
+}
+.user_menulink{color:#f89d04; background: #f89d04; padding: 14.5px !important; color: #fff; float: right; font-size: 20px;}
+.user_menulink:hover{color:#f89d04; background: #88c007;  color: #fff; float: right;}
+.menu_panel {
+    
+    background: #f89d04;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.menu_panel ul{margin: 0px; padding: 0px; width: 100% !important; border-bottom: 0px !important;}
+.menu_panel ul li{list-style: none; width: 100% !important; float: left; margin-left: 0px !important; height: auto;}
+.menu_panel ul li a{background-color:#f89d04 !important; width: 100% !important; height: auto; float: left; color: #fff !important; text-shadow: 0px 0px 5px #a2a2a2; padding: 7px 7px !important; font-size: 14px; border-bottom: 1px solid #fff !important}
+.menu_panel ul li a:hover{background-color: #3e3e3e !important;; text-decoration: none;}
+.menu_panel ul li a i{margin-right: 10px;}
+
+

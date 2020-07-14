@@ -1,0 +1,61 @@
+
+
+#one_toggle{opacity: 0; height: 0px; width: 0px;}
+#one_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#one_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#one_toggle:checked ~ #one_label{background: #A4EBB0}
+#one_toggle:checked ~ #one_label #one_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}
+
+#two_toggle{opacity: 0; height: 0px; width: 0px;}
+#two_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#two_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#two_toggle:checked ~ #two_label{background: #A4EBB0}
+#two_toggle:checked ~ #two_label #two_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}
+
+#three_toggle{opacity: 0; height: 0px; width: 0px;}
+#three_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#three_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#three_toggle:checked ~ #three_label{background: #A4EBB0}
+#three_toggle:checked ~ #three_label #three_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}
+
+#four_toggle{opacity: 0; height: 0px; width: 0px;}
+#four_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#four_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#four_toggle:checked ~ #four_label{background: #A4EBB0}
+#four_toggle:checked ~ #four_label #four_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}
+
+
+#five_toggle{opacity: 0; height: 0px; width: 0px;}
+#five_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#five_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#five_toggle:checked ~ #five_label{background: #A4EBB0}
+#five_toggle:checked ~ #five_label #five_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}
+
+
+
+
+
+#multione_toggle{opacity: 0; height: 0px; width: 0px;}
+#multione_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#multione_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#multione_toggle:checked ~ #multione_label{background: #A4EBB0}
+#multione_toggle:checked ~ #multione_label #multione_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}
+
+#multitwo_toggle{opacity: 0; height: 0px; width: 0px;}
+#multitwo_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#multitwo_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#multitwo_toggle:checked ~ #multitwo_label{background: #A4EBB0}
+#multitwo_toggle:checked ~ #multitwo_label #multitwo_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}
+
+#multithree_toggle{opacity: 0; height: 0px; width: 0px;}
+#multithree_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#multithree_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#multithree_toggle:checked ~ #multithree_label{background: #A4EBB0}
+#multithree_toggle:checked ~ #multithree_label #multithree_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}
+
+
+#multifour_toggle{opacity: 0; height: 0px; width: 0px;}
+#multifour_label{display: inline-block; background: #C2C2C2; width: 3em; height: 1em; border-radius: 0.5em; position: relative; cursor: pointer; margin-top: 10px; }
+#multifour_switch { position: absolute; width: 1.5em; height: 1.5em; margin-top: -0.20em; border-radius: 1em; background: #EDEDED; box-shadow: 0px 0px 2px 0px rgba(214, 214, 214, 0.75); transition: transform .2s ease-in;}
+#multifour_toggle:checked ~ #multifour_label{background: #A4EBB0}
+#multifour_toggle:checked ~ #multifour_label #multifour_switch { background: #4CD964; transform: translatex(1.63em); transition: transform .2s ease-in;}

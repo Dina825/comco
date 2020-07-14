@@ -1,0 +1,399 @@
+body{font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 20px; color: #43425D}
+input:focus{outline: 0px;}
+a{color: #717171}
+a:hover{color: #000}
+a, a:hover{ transition: 0.5s;}
+input, input:hover{ transition: 0.5s;}
+select{width: 100%; height: 45px; border:1px solid #DEDEDE; padding:5px 20px 5px 10px;  }
+.input{width: 100%; height: 45px; border:1px solid #DEDEDE; padding:10px 10px 10px 10px;  }
+.input2{padding: 5px; height: 30px;}
+.submit{background: #f89d04; color: #fff; width: 100%; height: 45px; border:0px; font-size:18px; text-transform: uppercase; cursor: pointer;}
+.submit:hover{background: #88c007; text-decoration: none;}
+.textarea{width: 100%; height: 100px; border:1px solid #DEDEDE; padding:10px 10px 10px 10px;  }
+
+
+.padding_00{padding: 0px;}
+.line-height-35{line-height: 35px;}
+
+.responsive_head{display: none; width: 100%; height: auto; padding: 15px; background: #3e3e3e; position: fixed; z-index: 999;}
+.responsive_head .logo{text-align: center;}
+.responsive_head .logo img{height: 40px;}
+.responsive_head .three_color{width: 40px; height: 12px; margin: 0px auto;}
+.responsive_head .three_color ul{width: 100%; height: auto; float: left; margin:0px; padding: 0px; }
+.responsive_head .three_color ul li{width: 7px; height: 7px; background: #FFBD2E; border-radius: 12px; float: left; list-style: none;}
+.responsive_head .three_color ul li:first-child{background: #FF6059}
+.responsive_head .three_color ul li:nth-child(2){margin: 0px 8px; }
+.responsive_head .three_color ul li:last-child{background: #29C941}
+
+.responsive_head .menu-link{color: #fff; font-size: 30px; padding: 5px; float: left; margin-top: 0px;}
+.responsive_head .menu-link:hover{text-decoration: none; color:#e2982c}
+
+.sales_rep_menu{display: block;}
+
+.on_off_lable{float: left; margin: 8px 0px 0px 10px;}
+
+.left_panel{height:100%; background:#3e3e3e; position: fixed; padding:15px 0px; overflow-x: hidden; overflow-y: scroll;  }
+.left_panel .three_color{width: 52px; height: 24px; margin: 0px auto;}
+.left_panel .three_color ul{width: 100%; height: auto; float: left; margin:0px; padding: 0px; }
+.left_panel .three_color ul li{width: 12px; height: 12px; background: #FFBD2E; border-radius: 12px; float: left; list-style: none;}
+.left_panel .three_color ul li:first-child{background: #FF6059}
+.left_panel .three_color ul li:nth-child(2){margin: 0px 8px; }
+.left_panel .three_color ul li:last-child{background: #29C941}
+.left_panel .logo_icon{width: 100%; height: 100px; text-align: center; padding-top: 30px;}
+.left_panel .logo_icon img{max-width: 130px; height: auto; width: 90%;}
+.left_panel .welcome_text{width: 100%; height: auto; float: left; font-size: 15px; color:#fff; line-height: 20px; text-align: center; margin: 20px 0px; }
+.left_panel .welcome_text span{font-size: 20px;}
+.left_panel .welcome_text a{font-size: 13px; color: #fff;}
+.left_panel .menu{width: 100%; height: auto; float: left;}
+.left_panel .menu ul{margin: 0px; padding: 0px; width: 100%; height: auto; float: left;}
+.left_panel .menu ul li{list-style: none; text-align: center; width: 100%; height: auto; margin-bottom: 1px; float: left; }
+.left_panel .menu ul li a{width: 100%; height: auto; text-align: center; line-height: 20px; color: #fff; background-color: rgba(113,113,113, 0.2); float: left; padding: 15px 0px; text-shadow: 0px 0px 5px #a2a2a2;}
+.left_panel .menu ul li a:hover{background-color: rgba(113,113,113, 0.4); text-decoration: none;}
+.left_panel .menu ul li a i{font-size: 30px; width: 100%; line-height: 40px; }
+
+
+.right_panel{padding-left: 20px; padding-right: 20px;}
+.main_title{font-size: 25px; color: #f26e46; font-family: 'Roboto', sans-serif; margin: 30px 0px 30px 0px; font-weight: 600;}
+.main_title span{font-weight: 300; color: #faa62a}
+.sales_right_panel{padding-left: 20px; padding-right: 20px; margin-top: 75px;}
+.areamanager_right_panel{padding-left: 20px; padding-right: 20px; margin-top: 75px;}
+
+.notification_bell{float: right; margin-right: 10px; font-size: 30px;  color: #fff; margin-top: 6px;}
+.notification_bell:hover{color: #fff}
+.notification_bell .count{width: 20px; height: 20px; position: absolute; right: 10px; top: 20px; font-size: 13px; background: #faa62a; border-radius: 20px; color: #000}
+
+
+.sub_title2{font-size: 20px;margin: 10px 0px 10px 0px; font-weight: 500; color: #f26e46}
+.sub_title2 span{color: #f26e46; font-weight: 300}
+.sub_title3{font-size: 18px;margin: 10px 0px 10px 0px; font-weight: 400;}
+
+.logout_button{padding: 10px 15px; background: #f26e46; float: right; margin: 15px 0px 0px 0px; color: #fff}
+.logout_button:hover{background:#faa62a; text-decoration: none; color: #fff}
+
+.margin_top_20{margin-top: 20px;}
+.margin_top_30{margin-top: 30px;}
+.margin_top_40{margin-top: 40px;}
+.margin_top_50{margin-top: 50px;}
+
+.width_100{float: left;width: 100%; height: auto;}
+
+.dashbaord_elements{background: #000; padding: 15px; color: #fff; }
+
+.dashbaord_elements .title{text-align: center; padding:0px; font-size: 18px; font-weight: 300; }
+.dashbaord_elements .count{font-size: 70px; font-weight: 800; text-align: center; padding: 10px 0px 0px 0px; line-height: 70px;}
+.dashboard_a{margin-bottom: 15px;}
+.dashboard_a a{text-align: center; color: #fff; padding: 5px 0px; }
+.dashboard_a a:hover{text-decoration: none;}
+
+.login_bg{background:#3e3e3e; width: 100%; height: 100%; float: left;}
+
+.login_center{width: 400px; height: auto; margin: 12% auto 0px auto;}
+.login_center .title{font-size: 35px; font-weight: 500; color:#fff; text-shadow: 0px 3px 10px #3a3a3a; width: 100%; text-align: center; float: left; margin: 40px 0px;}
+.login_center .title span{font-weight: 300;}
+.login_center .ul_button{width: 100%; height: auto; float: left;}
+.login_center .ul_button ul{margin: 0px; padding: 0px;}
+.login_center .ul_button ul li{list-style: none; float: left; width: 100%; height: auto;}
+.login_center .ul_button ul li a{background:#FF4229; width: 100%; border-radius: 100px; float: left; font-size: 25px; color: #fff; padding: 15px; text-align: center; font-weight: 300; margin-bottom: 15px;}
+.login_center .ul_button ul li a:hover{background: #FFCF38; text-decoration: none;}
+
+.login_center .login_form{margin-top: 30px;}
+.login_center .login_form .form-control{border:0px; padding: 30px; border-radius: 0px; font-size: 16px; text-align: left; padding-left: 60px; padding-right: 60px;   }
+.login_center .login_form .form-control:focus{outline: 0;}
+
+.form-control{border-radius:0px; }
+.form-control:focus{outline: 0;}
+
+
+.login_center .login_form .blogin{background:#f26e46; width: 100%; border-radius: 0px; float: left; font-size: 16px; color: #fff; padding: 16px; border: 0px; font-weight: 400; cursor:pointer; }
+.login_center .login_form .blogin:hover{background: #faa62a; text-decoration: none;}
+
+.login_center .login_form .login_user_icon{position:absolute; width: 23px; height: 23px; margin-top: 17px; margin-left: 25px;}
+.login-eye-icon{float: right; margin-right: 25px; margin-top: -38px; position: relative; z-index: 2; font-size: 18px; cursor: pointer;}
+
+.dashboard_back1{background: #9286da}
+.dashboard_back1_a a{background: #8378c4}
+.dashboard_back1_a a:hover{background: #645a9a}
+.dashboard_back2{background: #03d4b7}
+.dashboard_back2_a a{background: #00b99f}
+.dashboard_back2_a a:hover{background: #039a85}
+.dashboard_back3{background: #00c0ef}
+.dashboard_back3_a a{background: #00add7}
+.dashboard_back3_a a:hover{background: #008daf}
+.dashboard_back4{background: #a657d0}
+.dashboard_back4_a a{background: #8f3cbb}
+.dashboard_back4_a a:hover{background: #6a2b8c}
+.dashboard_back5{background: #2e6da4}
+.dashboard_back5_a a{background: #004b8c}
+.dashboard_back5_a a:hover{background: #003767}
+.dashboard_back6_a{background: #ea9f5e}
+.dashboard_back6_a a{background: #de8639}
+.dashboard_back6_a a:hover{background: #ca742a}
+
+.dashboard_back_commmon{background:#424242}
+.dashboard_back_commmon_a a{background: #1d1d1d}
+.dashboard_back_commmon_a a:hover{background: #000}
+
+.page_navigation{width: 100%; height: auto; float: left; margin-top: 20px;}
+.page_navigation ul{margin: 0px; padding: 0px; float: right;}
+.page_navigation ul li{list-style: none; float: left; margin-left: 2px;}
+.page_navigation ul li a{border: 1px solid #dcdcdc; background: #efefef; color: #717171; padding: 5px 10px; font-size: 15px;}
+.page_navigation ul li a:hover{background: #212529; color: #efefef; text-decoration: none;}
+.page_navigation ul li.active a{background: #212529; color: #efefef; text-decoration: none;}
+.page_navigation ul li.disable a{opacity: 0.5;}
+
+.sales_rep_dahboard{}
+.sales_rep_dahboard:hover{}
+
+
+.sales_dahboard_ul ul{margin: 0px; padding: 0px;}
+.sales_dahboard_ul ul li{list-style: none; float: left; margin-right: 15px}
+.sales_dahboard_ul ul li a{background: #424242; color: #fff; width: 100%; height: auto; float: left; padding:20px; font-size:23px; font-weight: 400; margin-bottom: 15px;}
+.sales_dahboard_ul ul li a:hover{background: #1d1d1d; text-decoration: none; color: #fff}
+.sales_dahboard_ul ul li a .icon{float: left; margin-right: 15px;}
+.sales_dahboard_ul ul li a .text{float: left;}
+
+.route_list_ul ul{margin: 0px; padding: 0px;}
+.route_list_ul ul li{list-style: none; float: left; margin-right: 15px}
+.route_list_ul ul li a{color: #424242; background: #efefef; border: 1px solid #e0e0e0; width: 100%; height: auto; float: left; padding:20px; font-size:23px; font-weight: 400; margin-bottom: 15px;}
+.route_list_ul ul li a:hover{background: #444444; text-decoration: none; color: #fff}
+.route_list_ul ul li a .icon{float: left; margin-right: 15px; width: 100%; height: auto; font-size: 35px; text-align: center;}
+.route_list_ul ul li a .text{float: left; margin-top: 10px; text-align: center; width: 100%; height: auto;}
+
+
+
+
+
+
+
+.float_left{float: left;}
+.float_right{float: right;}
+
+.common_button{padding: 10px 15px; background:#212529; color: #fff}
+.common_button:hover{background:#000; text-decoration: none; color: #fff}
+
+.search_icon{padding: 12px 15px; background:#212529; color: #fff; border: 0px; position: absolute; top: -4px; right: 15px;}
+.search_icon:hover{background:#000; text-decoration: none; color: #fff}
+
+.model_add_button{padding: 10px 15px; border-radius:0px; border: 0px;  background:#f26e46; color: #fff}
+.model_add_button:hover{background:#faa62a; text-decoration: none; color: #fff}
+
+.cancel_button{border-radius: 0px; padding: 10px 15px; border-radius:0px; border: 0px;}
+
+.already_email{width: 100%; height: auto; float: left; margin-top: 5px; color: #f00;}
+.error{ margin-top: 5px; color: #f00; margin-bottom: 0px;}
+
+.sim_allocation_product_ul{width: 100%; height: auto; float: left;}
+.sim_allocation_product_ul ul{margin: 0px; padding: 0px;}
+.sim_allocation_product_ul ul li{list-style: none;width: 100%; border-left: 1px solid #ccc; height: auto; float: left; line-height: 30px; float:left;}
+.sim_allocation_product_ul .product_text{width: 50%; height: auto; float:left; border-bottom: 1px solid #ccc; padding:5px 10px;}
+.sim_allocation_product_ul .field{width: 50%; height: auto; float:left; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 4px 15px;}
+.sim_allocation_product_ul .field .form_input{border: 0px; width: 100%;}
+.sim_allocation_product_ul .product_text .drop_down{border: 0px; height: 40px;}
+
+
+.sim_allocation_left{padding: 10px; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.sim_allocation_right{padding:10px; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-top: 10px;}
+.sim_allocation_right .form_input{height: 25px; line-height: 25px; border-radius: 0px; border: 1px solid #ccc; width: 100%; margin-bottom: 10px;}
+
+
+.own_table{width: 100%; margin-top: 6px; margin-bottom: 6px;}
+.own_table td{line-height: 25px; font-size: 15px; padding: 8px 15px;}
+.own_table th{line-height: 25px; font-weight: bold; font-size: 15px; padding: 11px 15px;}
+.own_table tr{background:#fff; }
+.own_table tr td{border-top: 1px solid #ddd;}
+.own_table tr:nth-child(odd){background: #f9f9f9}
+.own_table tr:first-child td{border-top: 1px solid #333}
+.own_table tr:last-child td{border-bottom: 1px solid #333}
+/*.own_table tr:first-child td{background:#fafafa;}*/
+.own_table tr:nth-child(even) td:first-child{background: #fafafa; }
+.own_table tr:nth-child(odd) td:first-child{background: #f1f1f1; }
+
+.sim_card_ul{width: 100%; height: auto; float: left;}
+.sim_card_ul ul{margin: 0px; padding: 0px;}
+.sim_card_ul ul li{list-style: none; float: left; width: 100%; margin-bottom: 5px; height: auto;}
+.sim_card_ul ul li .number{float: left;}
+.sim_card_ul ul li .icon{float: right;color: #33CC66}
+.sim_card_ul ul li .not_available{float: right;color: #E11B1C}
+
+
+.loading{position: fixed; z-index: 999999999; background-color: rgba(256, 256, 256, 0.3); left: 0px; top: 0px; bottom: 0px; right: 0px; display: block;}
+.loading .spinner-border{position: absolute; top: 45%; display: block !important;}
+
+.loading_css .spinner-border{display: none;}
+
+.time_sheet_table{width: 100%;}
+.time_sheet_table tr th, .time_sheet_table tr td{padding: .75rem; border: 1px solid #dee2e6}
+
+.plan_input{width: 100%;  background-color:transparent; height: auto; border: 0px; float: left;}
+
+.dropdown .common_button {border-radius: 0px; border: 0px; padding: 8px 10px; margin-right: 5px;}
+.dropdown_admin{float: left;}
+/*.sim_allocation_quanity_ul{width: 100%; height: auto; float: left;}
+.sim_allocation_quanity_ul ul{margin: 0px; padding: 0px;}
+.sim_allocation_quanity_ul ul li{list-style: none;width: 100%; border-left: 1px solid #ccc; border-right: 1px solid #ccc; height: auto; float: left; line-height: 30px; float:left; border-bottom: 1px solid #ccc; padding: 5px 15px;}
+.sim_allocation_quanity_ul .form_input{height: 25px; line-height: 25px; border-radius: 0px; border: 0px solid #ccc; width: 100%; }*/
+
+/* Customize the label (the container) */
+.form_checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.form_checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark_checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border:1px solid;
+}
+
+/* On mouse-over, add a grey background color */
+.form_checkbox:hover input ~ .checkmark_checkbox {
+  background-color: #fff;
+  border:1px solid;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form_checkbox input:checked ~ .checkmark_checkbox {
+  background-color: #fff;
+
+}
+
+/* Create the checkmark_checkbox/indicator (hidden when not checked) */
+.checkmark_checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark_checkbox when checked */
+.form_checkbox input:checked ~ .checkmark_checkbox:after {
+  display: block;
+}
+
+/* Style the checkmark_checkbox/indicator */
+.form_checkbox .checkmark_checkbox:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid #3a3a3a;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.form_radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.form_radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark_radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  border:1px solid #3a3a3a;
+}
+
+/* On mouse-over, add a grey background color */
+.form_radio:hover input ~ .checkmark_radio {
+  background-color: #fff;
+}
+
+/* When the radio button is checked, add a blue background */
+.form_radio input:checked ~ .checkmark_radio {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark_radio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.form_radio input:checked ~ .checkmark_radio:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.form_radio .checkmark_radio:after {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #3a3a3a;
+}
+
+
+
+
+
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #DCDCDC;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #f26e46 !important; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #f26e46 !important;  
+}

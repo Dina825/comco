@@ -1,0 +1,70 @@
+@media screen and (max-width:1024px){
+	body{font-size: 13px;}
+	.banner_img{margin-right: 0px; width: 50%}
+	.banner_img img{width: 100%;}
+	.banner_row{height: 370px;}
+	.banner_row::before{height: 370px;}
+	.home_network ul li{margin: 15px 0px; width: 30%; text-align: center;}	
+	.home_network2{margin-left: 0px; margin-top: 0px;}
+	.home_network2 ul li{margin: 15px 0px 30px 0px; width: 50%; text-align: center; }
+	
+}
+@media screen and (max-width:980px){
+	
+}
+@media screen and (max-width:768px){
+	.desktop_menu{display: none;}
+	.mobile_menu_ul{display: block;}
+	.banner_row::before{width: 60%;}
+	.banner_content .title{margin-top:50px }
+	.banner_img{margin-top: 76px;}
+	.home_product{margin-bottom: 30px;}
+	.common_ul ul li{line-height: 28px;}
+	.dark_gray .content{line-height: 20px;}
+	.home_network ul li{width: 50%; margin-bottom: 0px;}
+	.top_cart .view_cart_detail .white_space{width: 35px;}
+	.footer_first{line-height: 25px; padding: 10px 0px;}
+	.footer_last{line-height: 30px; padding: 10px 0px}
+
+
+}
+@media screen and (max-width:767px){
+	.home_network ul li{width: 100%;}
+	.home_network2 ul li{width: 100%;}
+	.top_contact{display: none;}
+	.banner_row::before{width: 100%; display: none; background-image: none;}
+	.banner_content{width: 50%;}
+	.banner_content .title{color: #DC2C1D;}
+	.banner_content .title span{color: #DC2C1D;}
+	.banner_content .content{color: #666;}
+	.dark_gray{height: 730px;}
+	.dark_gray::before{width: 100%;}
+	.dark_gray .content{min-height: auto; margin-left: 0px;}
+	.dark_gray .container .contact_title{margin-left: 0px; margin-top: 70px;}
+	.dark_gray .contact_readmore{margin-left: 0px;}
+	.dark_gray::before{height: 360px;}
+	.footer_last .text-left{text-align: center !important;}
+	.bottom_social{width: 150px; margin: 0px auto; float: none;}
+	.red_logo{width: 100px;}
+	.inner_title_red_black{background: #DC2C1D}
+	.inner_title_red_black::before{display: none;}
+
+	
+}
+
+@media screen and (max-width:577px){
+	.banner_row{height: auto; padding-bottom: 30px}
+	.banner_content, .banner_img{width: 100%;}
+	.top_cart .view_cart_detail{width: 300px;}
+	
+	
+}
+@media screen and (max-width:480px){
+	.dark_gray::before{height: 380px;}
+	.dark_gray{height: 750px;}
+	.home_network2 ul li{margin: 0px 0px 0px 0px;  }
+	
+}
+
+
+

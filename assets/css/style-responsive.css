@@ -1,0 +1,37 @@
+@media screen and (max-width:1000px){
+
+}
+@media screen and (max-width:980px){
+	.left_panel{display: none;}
+	.responsive_head{display: block;}
+	.right_panel{margin-top: 80px;}
+}
+@media screen and (max-width:768px){
+	.sales_dahboard_ul ul li{width: 49%; margin-right: 2%;}
+	.sales_dahboard_ul ul li:nth-child(even){margin-right: 0px;}
+	.route_list_ul ul li{width: 49%; margin-right: 2%;}
+	.route_list_ul ul li:nth-child(even){margin-right: 0px;}
+}
+@media screen and (max-width:767px){
+	.sales_dahboard_ul ul li{width: 100%; margin-right: 0px;}
+	.route_list_ul ul li{width: 100%; margin-right: 0%;}
+	.sim_allocation_product_ul .product_text{width: 70%}
+	.sim_allocation_product_ul .field{width: 30%;}
+	.time_sheet_table{width:1500px;}
+}
+
+@media screen and (max-width:577px){
+	.dashboard_plus{width: 10%; margin: 20px auto 0px 48%}
+	.sim_allocation_product_ul ul li{ border-right: 1px solid #ccc}
+	
+}
+@media screen and (max-width:480px){
+	.login_center{width: 90%;}
+	.sales_dahboard_ul ul li a{font-size: 19px;}
+	.sim_allocation_product_ul .product_text{width: 100%}
+	.sim_allocation_product_ul .field{width: 100%; border-left: 0px; border-right: 0px;}
+	
+}
+
+
+

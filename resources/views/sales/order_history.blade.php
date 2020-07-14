@@ -1,0 +1,104 @@
+@extends('salesheader')
+@section('content')
+<style type="text/css">
+.heading_class{width: 100%; color: #f26e46; text-align: left; }
+.heading_class:hover{text-decoration: none; color: #f26e46;}
+.card_header_class{padding: 5px; border-radius: 0px; }
+.card_class{border-radius:0px; margin-bottom: 2px; box-shadow: none; }
+.card_body_class{padding: 3px;}
+.own_table td{padding: 8px; font-size: 13px;}
+.own_table th{font-size: 13px;}
+</style>
+<!-- Content Header (Page header) -->
+	<div class="col-lg-12 col-md-12 col-sm-12 col-12 sales_right_panel">
+	<div class="row">
+		<div class="col-lg-9 col-sm-9 col-8">
+			<div class="main_title">Order History for
+				<span> 
+					<?php 
+					$id= base64_decode($shop_id);
+					$shop_details = DB::table('shop')->where('shop_id', $id)->first();
+					echo $shop_details->shop_name;
+					?>
+				</span>
+			</div>
+		</div>
+		<div class="col-lg-3 col-sm-3 col-4 text-right" style="padding-top: 20px;">
+	      <div class="dropdown">
+	        <button class="btn btn-secondary common_button dropdown-toggle" style="border-radius: 0px; border: 0px; padding: 5px 10px" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Menu
+	        </button>
+	        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+	          <a class="dropdown-item" href="<?php echo URL::to('sales/shop_view_details/'.$shop_id)?>">Shop Details</a>
+	          <a class="dropdown-item" href="<?php echo URL::to('sales/accessories/'.$shop_id)?>">Accessories order</a>
+	          <a class="dropdown-item" href="<?php echo URL::to('sales/order_process/'.$shop_id)?>">View Cart</a>	          
+	          <a class="dropdown-item" href="<?php echo URL::to('sales/order_history/'.$shop_id)?>">Order History</a>
+	        </div>
+	      </div>
+	    </div>
+	</div>
+	<div class="row margin_top_20">		
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+			<div class="table-responsive">
+				<table class="own_table">
+					<thead>
+						<tr>
+							<th>S.NO</th>
+							<th>Order ID</th>
+							<th>Order Date</th>
+							<th>Order Type</th>
+							<th style="width: 130px;">Order Status</th>
+						</tr>
+					</thead>
+					<tbody>						
+						<?php
+						$i=1;
+						$outputhistory='';
+						if(count($historylist)){
+							foreach ($historylist as $history) {
+								if($history->order_types == 1){
+									$type= 'Inhand Orders';
+								}
+								elseif($history->order_types == 2){
+									$type= 'Online Orders';
+								}
+								$outputhistory.='
+								<tr>
+									<td>'.$i.'</td>
+									<td><a href="'.URL::to('sales/order_details?order_id='.base64_encode($history->order_id)).'&shop_id='.$shop_id.'">'.$history->order_id.'</a></td>
+									<td><a href="'.URL::to('sales/order_details?order_id='.base64_encode($history->order_id)).'&shop_id='.$shop_id.'">'.date('d-M-Y', strtotime($history->date)).' - '.date('h-i A', strtotime($history->time)).'</a></td>
+									<td>'.$type.'</td>
+									<td></td>
+								</tr>';
+								$i++;
+							}
+							
+						}
+						else{
+							$outputhistory.='
+								<tr>
+									<td></td>
+									<td align="right">Empty</td>
+									<td></td>
+									<td></td>
+								</tr>';
+						}
+						echo $outputhistory;
+						?>
+
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		
+</div>
+		
+		
+	</div>
+</div>              
+<!-- /.content -->
+
+@stop
