@@ -355,7 +355,7 @@ class CommissionController extends Controller {
 								else{
 									if($topup_no == "0" || $topup_no == 0) { $topup_zero++; }
 									else{
-										$check_ssn = DB::table('commission_manager')->where('network_id',$network)->where('ssn',$ssn)->where('cli',$cli)->where('topup_date',$topup_date)->where('month',$month)->where('topup_no',$topup_no)->first();
+										$check_ssn = DB::table('commission_manager')->where('network_id',$network)->where('ssn',$ssn)->where('month',$month)->where('topup_no',$topup_no)->first();
 										if(count($check_ssn))
 										{
 											$duplicated++;
@@ -711,7 +711,7 @@ class CommissionController extends Controller {
 					else{
 						if($topup_no == "0" || $topup_no == 0) { $topup_zero++; }
 						else{
-							$check_ssn = DB::table('commission_manager')->where('network_id',$network)->where('ssn',$ssn)->where('cli',$cli)->where('topup_date',$topup_date)->where('month',$month)->where('topup_no',$topup_no)->first();
+							$check_ssn = DB::table('commission_manager')->where('network_id',$network)->where('ssn',$ssn)->where('month',$month)->where('topup_no',$topup_no)->first();
 							if(count($check_ssn))
 							{
 								$duplicated++;
@@ -1804,6 +1804,30 @@ class CommissionController extends Controller {
 	{
 		$shop_id = Input::get('shop_id');
 		$value = Input::get('dateval');
+
+		$get_first_date = DB::table('sim_processed')->where('shop_id',$shop_id)->where('month_year',$value)->orderBy('id','asc')->first();
+		if(count($get_first_date))
+		{
+			if($get_first_date->proceed_count == 0)
+			{
+				$date_uploaded = $get_first_date->uploaded_date;
+				$get_date_uploaded_first = DB::table('sim_processed')->where('shop_id',$shop_id)->where('month_year',$value)->orderBy('id','asc')->get();
+				if(count($get_date_uploaded_first))
+				{
+					foreach($get_date_uploaded_first as $first_processed)
+					{
+						if($first_processed->uploaded_date == $date_uploaded)
+						{
+							$data_proceed_count['proceed_count'] = 1;
+							DB::table('sim_processed')->where('id',$first_processed->id)->update($data_proceed_count);
+						}
+						else{
+							break;
+						}
+					}
+				}
+			}
+		}
 		
 		$explode = explode('-',$value);
 		if($explode[0] == "1") { $month = 'January'; }
